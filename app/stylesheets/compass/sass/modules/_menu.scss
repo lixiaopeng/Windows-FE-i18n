@@ -15,7 +15,6 @@
 
     .w-menu-pim {
         border-top: 1px solid #3f4346;
-        box-shadow: 0 1px 0 #515559 inset;
         padding-top: 7px;
         margin-top: 9px;
 
@@ -33,7 +32,6 @@
         color : #ccc;
         font-size: 12px;
         height: 27px;
-        text-shadow: 0 1px 0 #000;
         -webkit-box-align: center;
 
         .label {
@@ -76,7 +74,6 @@
         &.selected {
             background-color: #1B1D20;
             color: #fff;
-            text-shadow: 0 1px 0 rgba(0, 0, 0, .2);
 
             @if $PROJECT_FLAG == PROJECT_SUNING {
                 background-color: #009CC2;

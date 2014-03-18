@@ -8,14 +8,11 @@
  * TaskManager Module Main
  ********************************************************************************/
 .w-task-module-main {
-    background-color: rgba(0, 0, 0, .7);
     overflow: hidden;
     -webkit-transform: translate3d(0, 0, 0);
-    -webkit-transition: background-color .5s;
 
     .ctn {
         background-color: #fff;
-        box-shadow: 1px 0 10px rgba(0, 0, 0, .2);
         overflow: visible;
         position: relative;
         -webkit-animation: {

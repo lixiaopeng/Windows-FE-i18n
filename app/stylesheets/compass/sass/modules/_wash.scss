@@ -13,7 +13,6 @@
         position: center bottom;
         repeat: no-repeat;
     }
-    text-shadow: 0 1px 0 #fff;
 
     > .button-close {
         @include button-close;
@@ -172,7 +171,6 @@
                 border: 1px $splitLineColor solid;
                 border-bottom: none;
                 border-radius: 3px 3px 0 0;
-                box-shadow: $cardShadow;
                 box-sizing: border-box;
                 height: inherit;
                 left: 0;
@@ -273,7 +271,6 @@
                     color: #fff;
                     height: 18px;
                     right: 15px;
-                    text-shadow: 0 1px 0 rgba(0, 0, 0, .2);
                     position: absolute;
                     top: -1px;
                     width: 50px;

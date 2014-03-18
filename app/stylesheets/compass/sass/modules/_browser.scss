@@ -58,7 +58,6 @@
 
                 .shinning {
                     background-color: transparent;
-                    box-shadow: 0 0 5px rgb(120, 182, 0);
                     display: block;
                     height: 2px;
                     position: absolute;
@@ -107,12 +106,10 @@
 .w-browser-app-dependency {
     background-color: #f0f0f0;
     border-bottom: 1px $splitLineColor solid;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, .15) inset;
     display: none;
     line-height: 32px;
     margin: -1px 0 1px 0;
     padding: 5px;
-    text-shadow: 0 1px 0 #fff;
 
     .ctn {
         -webkit-box-align: center;
@@ -160,13 +157,11 @@
 
         &:hover {
             color: $linkColor;
-            text-shadow: 0 1px 0 rgba(255, 255, 255, .6);
         }
 
         &.selected {
             color: $linkColor;
             font-weight: bold;
-            text-shadow: 0 1px 0 #fff;
         }
     }
 }
@@ -215,7 +210,6 @@
     background-color: #fff;
     border-bottom: 1px #d6d6d6 solid;
     border-top: 1px #d6d6d6 solid;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, .05) inset, 0 -1px 2px rgba(0, 0, 0, .05) inset;
     margin-top: -1px;
     padding: 12px 15px;
     position: relative;

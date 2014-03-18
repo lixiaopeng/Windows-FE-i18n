@@ -33,7 +33,6 @@
             bottom: 30px;
             position: absolute;
             right: 0;
-            text-shadow: 0 1px 0 #fff;
             width: 380px;
 
             h1 {
@@ -80,7 +79,6 @@
                 pointer-events: all;
                 position: relative;
                 width: misc-sprite-width(device-default);
-                -webkit-filter: drop-shadow(15px 15px 30px rgba(0, 0, 0, .8));
 
                 .screen {
                     background-color: #000;
@@ -170,30 +168,18 @@
     &.turn-left {
         .screen-wrap {
             -webkit-transform: rotate(-90deg);
-
-            .screen-ctn {
-                -webkit-filter: drop-shadow(-20px 8px 30px rgba(0, 0, 0, 0.8));
-            }
         }
     }
 
     &.turn-right {
         .screen-wrap {
             -webkit-transform: rotate(90deg);
-
-            .screen-ctn {
-                -webkit-filter: drop-shadow(20px -8px 30px rgba(0, 0, 0, 0.8));
-            }
         }
     }
 
     &.turn-down {
         .screen-wrap {
             -webkit-transform: rotate(180deg);
-
-            .screen-ctn {
-                -webkit-filter: drop-shadow(-15px -15px 30px rgba(0, 0, 0, 0.8));
-            }
         }
     }
 }
@@ -219,7 +205,6 @@
 
     .bg {
         background-color: #b3b3b3;
-        box-shadow: 1px 0 0 rgba(0, 0, 0, .2) inset;
         height: 720px;
         left: 0;
         overflow: hidden;
@@ -284,28 +269,17 @@
         line-height: 32px;
         position: relative;
         text-align: center;
-        text-shadow: 0 1px 0 #fff;
     }
 }
 
 .w-welcome-feed-card {
     background: #fff;
-    box-shadow: $cardShadow;
     box-sizing: border-box;
     height: 170px;
     padding: 15px 15px 10px;
     position: relative;
     width: 350px;
-    -webkit-transition: -webkit-transform .3s ease-out, box-shadow .2s linear;
     -webkit-transform: translate3d(0, 0, 0);
-
-    &.flip {
-        -webkit-transition: box-shadow .2s linear;
-    }
-
-    &:hover {
-        box-shadow: 0 1px 3px rgba(0, 0, 0, .5), 0 3px 5px rgba(0, 0, 0, .1);
-    }
 
     .link {
         color: #000;
@@ -603,9 +577,7 @@
                 button {
                     background: -webkit-linear-gradient(-90deg, rgba(255, 255, 255, .1) 0%, rgba(0, 0, 0, .1) 100%);
                     border: 1px solid rgba(0, 0, 0, .25);
-                    box-shadow: 0 1px 0 rgba(255, 255, 255, .4) inset;
                     color: #fff;
-                    text-shadow: 0 1px 0 rgba(0, 0, 0, .4);
 
                     &:enabled:hover:not(.active):not(:active),
                     &:enabled:focus {
@@ -830,7 +802,6 @@
 
 .w-welcome-guide-frame {
     background-color: #fff;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .1);
     height: 0;
     margin: 0 0 20px 25px;
     position: relative;
@@ -841,8 +812,6 @@
 .w-welcome-info {
     color: #fff;
     position: relative;
-    // text-shadow: rgba(0, 0, 0, .3) 0 5px 8px, rgba(0, 0, 0, 0.3) 0 1px 2px;
-    text-shadow: rgba(0, 0, 0, .8) 0 3px 8px,rgba(0, 0, 0, .4) 0 1px 2px;
     margin-bottom: 110px;
     -webkit-animation: fade-in-time 1.5s;
     -webkit-transform: translate3d(0, 0, 0);
@@ -859,7 +828,6 @@
             display: inline-block;
             font-size: 18px;
             padding: 10px;
-            text-shadow: rgba(0, 0, 0, .8) 0 3px 8px, rgba(0, 0, 0, .4) 0 1px 2px;
             -webkit-transition: color .2s linear;
         }
 
@@ -911,7 +879,6 @@
 
 .w-welcome-toolbar {
     border-top: 1px rgba(255, 255, 255, .2) solid;
-    box-shadow: 0 1px 0 0 rgba(0,0,0,0.1) inset;
     left: 305px;
     padding: 10px 0 7px;
     position: absolute;
@@ -944,7 +911,6 @@
     &.fixed {
         background-image: url('../images/welcome_bg_100X100.png');
         border-bottom: 1px rgba(0, 0, 0, .1) solid;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
         left: 190px;
         padding-left: 15px;
         position: fixed;
@@ -1101,7 +1067,6 @@
 
     .icomoon {
         color: rgba(255, 255, 255, .9);
-        text-shadow: 0 1px 3px rgba(0, 0, 0, .8), 0 1px 0 rgba(0, 0, 0, .8);
     }
 
     .info {
@@ -1116,14 +1081,12 @@
         }
 
         progress {
-            box-shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 2px 4px rgba(0, 0, 0, .1);
             height: 4px;
             width: 80px;
 
             &::-webkit-progress-bar {
                 background-color: rgba(240,240,240,0.5);
                 border-radius: 2px;
-                box-shadow: none;
                 display: block;
                 height: 4px;
             }

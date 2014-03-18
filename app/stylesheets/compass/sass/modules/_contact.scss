@@ -42,7 +42,6 @@
         display: none;
         margin-top: -2px;
         position: absolute;
-        text-shadow: none;
 
         &:enabled:hover:not(.active):not(:active),
         &:enabled:focus {
@@ -207,7 +206,6 @@
 
                 .mask {
                     background-color: rgba(255, 255, 255, .4);
-                    box-shadow: 0 0 7px 3px #f2fac0 inset;
                     height: 100%;
                     left: 0;
                     position: absolute;

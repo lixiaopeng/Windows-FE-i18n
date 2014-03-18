@@ -187,7 +187,6 @@
 
     .notifier-ctn {
         border-bottom: 1px #d6d6d6 solid;
-        box-shadow: 0 1px 0 #fff;
         padding: 15px 0 2px 15px;
 
         .update-all,
@@ -379,7 +378,6 @@
     .ignore-tip {
         background-color: $bgColor;
         border-top: 1px $splitLineColor solid;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, .1) inset;
         display: none;
         height: 36px;
         line-height: 36px;
@@ -743,11 +741,9 @@
         bottom: 1px $splitLineColor solid;
         top: 1px $splitLineColor solid;
     }
-    box-shadow: 0 1px 0 #fff;
 
     .count-ctn {
         border-bottom: 1px $splitLineColor solid;
-        box-shadow: 0 1px 0 #f3f3f3;
         height: 56px;
 
         .rate {
@@ -770,7 +766,6 @@
                 font-family: 'Roboto-Light';
                 font-size: 24px;
                 line-height: 30px;
-                text-shadow: 0 1px 0 #fff;
                 -webkit-box-flex: 1;
 
                 &:hover {

@@ -1,0 +1,391 @@
+.effect {
+
+    /*********************************************
+     * app
+     ********************************************/
+    .w-app-default-panel {
+        .notifier-ctn {
+            box-shadow: 0 1px 0 #fff;
+        }
+    }
+
+    .w-app-list {
+        .ignore-tip {
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .1) inset;
+        }
+    }
+
+    .w-app-commentary {
+        box-shadow: 0 1px 0 #fff;
+
+        .count-ctn {
+            box-shadow: 0 1px 0 #f3f3f3;
+
+            .rate {
+                .parent {
+                    text-shadow: 0 1px 0 #fff;
+                }
+            }
+        }
+    }
+
+    /*********************************************
+     * browser
+     ********************************************/
+    .w-browser {
+        .browser-ctn {
+            .progress {
+                .value {
+                    .shinning {
+                        box-shadow: 0 0 5px rgb(120, 182, 0);
+                    }
+                }
+            }
+        }
+    }
+
+    .w-browser-app-dependency {
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .15) inset;
+        text-shadow: 0 1px 0 #fff;
+    }
+
+    .w-browser-menu {
+        .root-item {
+            &:hover {
+                text-shadow: 0 1px 0 rgba(255, 255, 255, .6);
+            }
+
+            &.selected {
+                text-shadow: 0 1px 0 #fff;
+            }
+        }
+    }
+
+    .w-browser-info-panel {
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .05) inset, 0 -1px 2px rgba(0, 0, 0, .05) inset;
+    }
+
+    /*********************************************
+     * contact
+     ********************************************/
+    .w-contact-detail-panel {
+        .contact-info {
+            .header-ctn {
+                .avatar {
+                    .mask {
+                        box-shadow: 0 0 7px 3px #f2fac0 inset;
+                    }
+                }
+            }
+        }
+    }
+
+    /*********************************************
+     * media
+     ********************************************/
+    .w-media-gallery {
+        .empty-tip {
+            text-shadow: 0 1px 0 #fff;
+        }
+    }
+
+    .w-media-item {
+        .error {
+            text-shadow: 0 1px 0 #fff;
+        }
+    }
+
+    /*********************************************
+     * menu
+     ********************************************/
+    .w-menu {
+        .w-menu-pim {
+            box-shadow: 0 1px 0 #515559 inset;
+        }
+    }
+
+    .w-sidebar-menu {
+        .title {
+            text-shadow: 0 1px 0 #000;
+
+            &.selected {
+                text-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+            }
+        }
+    }
+
+    /*********************************************
+     * message
+     ********************************************/
+    .w-message-conversation-list {
+        .count-tip {
+            text-shadow: 0 1px 0 #fff;
+        }
+    }
+
+    .w-message-conversation-list-item {
+        .content {
+            .count {
+                &.unread {
+                    text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+                }
+            }
+        }
+    }
+
+    .w-message-panel {
+        .empty-info {
+            .tip {
+                text-shadow: 0 1px 0 #fff;
+            }
+        }
+    }
+
+
+    .w-message-threads-ctn {
+        .nameplate-top {
+            box-shadow: 0 0 3px rgba(0, 0, 0, .1), 0 -1px 0 #fff inset;
+
+            .contact-info {
+                text-shadow: 0 1px 0 #fff;
+            }
+        }
+    }
+
+    .w-message-sender-window {
+        .header {
+            .address {
+                -webkit-transition: border linear .2s, box-shadow linear .2s;
+                &.focus:hover {
+                    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px $standardColor;
+                }
+            }
+        }
+    }
+
+    .w-message-quick-sender {
+        box-shadow: 0 1px 0 #fff inset, 0 0 3px rgba(0, 0, 0, .1);
+    }
+
+    .w-message-thread {
+        .date-ctn {
+            date {
+                text-shadow: 0 1px 0 #fff;
+            }
+
+            hr {
+                box-shadow: 0 1px 0 #fff;
+            }
+        }
+
+        .button-previous,
+        .button-next {
+            text-shadow: 0 1px 0 #fff;
+        }
+    }
+
+    .w-message-item-ctn li {
+        .content-wrap {
+            box-shadow: 0 1px 0 #fff inset, 0 0 5px rgba(0, 0, 0, .1);
+            text-shadow: 0 1px 0 #fff;
+
+            .content {
+                em {
+                    box-shadow: rgba(0, 0, 0, .5) 3px 3px 4px;
+                }
+            }
+        }
+
+        .info {
+            text-shadow: 0 1px 0 #fff;
+        }
+
+        &.from-me {
+            .content-wrap {
+                text-shadow: 0 1px 0 rgba(255, 255, 255, .6);
+            }
+        }
+    }
+
+    .w-message-contact-selector-monitor-item {
+        text-shadow: 0 1px 0 #fff;
+    }
+
+    .w-message-suggestion-ctn {
+        box-shadow: $componentShadow;
+    }
+
+    /*********************************************
+     * photo
+     ********************************************/
+    .w-photo-ios-banner-ctn {
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,0.09);
+    }
+
+
+    .w-photo-slideshow {
+         .control {
+            .buttons {
+                .btn-ctn {
+                    box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+                }
+            }
+        }
+    }
+
+    /*********************************************
+     * app wash
+     ********************************************/
+    .w-app-wash-module-main {
+        text-shadow: 0 1px 0 #fff;
+    }
+
+    .w-app-wash-result {
+        .result {
+            .result-item {
+                .front,
+                .back {
+                    box-shadow: $cardShadow;
+                }
+
+                .front {
+                    .tag {
+                        text-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+                    }
+                }
+            }
+        }
+    }
+
+    /*********************************************
+     * welcome
+     ********************************************/
+    .w-welcome-connection-guide-ctn {
+        .content-ctn {
+            .tips-ctn {
+                text-shadow: 0 1px 0 #fff;
+            }
+        }
+    }
+
+    .w-welcome-device-ctn {
+        .stage-ctn {
+            .screen-wrap {
+                .screen-ctn {
+                    -webkit-filter: drop-shadow(15px 15px 30px rgba(0, 0, 0, .8));
+                }
+            }
+        }
+
+        &.turn-left {
+            .screen-wrap {
+                .screen-ctn {
+                    -webkit-filter: drop-shadow(-20px 8px 30px rgba(0, 0, 0, 0.8));
+                }
+            }
+        }
+
+        &.turn-right {
+            .screen-wrap {
+                .screen-ctn {
+                    -webkit-filter: drop-shadow(20px -8px 30px rgba(0, 0, 0, 0.8));
+                }
+            }
+        }
+
+        &.turn-down {
+            .screen-wrap {
+                .screen-ctn {
+                    -webkit-filter: drop-shadow(-15px -15px 30px rgba(0, 0, 0, 0.8));
+                }
+            }
+        }
+    }
+
+    .w-welcome-ctn {
+        .bg {
+            box-shadow: 1px 0 0 rgba(0, 0, 0, .2) inset;
+        }
+
+        .w-ui-loading-horizental-ctn {
+            text-shadow: 0 1px 0 #fff;
+        }
+    }
+
+    .w-welcome-feed-card {
+        box-shadow: $cardShadow;
+        -webkit-transition: -webkit-transform .3s ease-out, box-shadow .2s linear;
+
+        &.flip {
+            -webkit-transition: box-shadow .2s linear;
+        }
+
+        &:hover {
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .5), 0 3px 5px rgba(0, 0, 0, .1);
+        }
+
+        &.cloud-photo,
+        &.backup,
+        &.tips {
+            .info-ctn {
+                .btn-ctn {
+                    a,
+                    button {
+                        box-shadow: 0 1px 0 rgba(255, 255, 255, .4) inset;
+                        text-shadow: 0 1px 0 rgba(0, 0, 0, .4);
+                    }
+                }
+            }
+        }
+    }
+
+    .w-welcome-guide-frame {
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .1);
+    }
+
+    .w-welcome-info {
+        text-shadow: rgba(0, 0, 0, .8) 0 3px 8px,rgba(0, 0, 0, .4) 0 1px 2px;
+        .w-welcome-account {
+            .button-register,
+            .button-user {
+                text-shadow: rgba(0, 0, 0, .8) 0 3px 8px, rgba(0, 0, 0, .4) 0 1px 2px;
+            }
+        }
+    }
+
+    .w-welcome-toolbar {
+        box-shadow: 0 1px 0 0 rgba(0,0,0,0.1) inset;
+
+        &.fixed {
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+        }
+    }
+
+    .w-welcome-capacitybar {
+        .icomoon {
+            text-shadow: 0 1px 3px rgba(0, 0, 0, .8), 0 1px 0 rgba(0, 0, 0, .8);
+        }
+
+        .info {
+            progress {
+                box-shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 2px 4px rgba(0, 0, 0, .1);
+
+                &::-webkit-progress-bar {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+
+    /*********************************************
+     * taskmanager
+     ********************************************/
+    .w-task-module-main {
+        background-color: rgba(0, 0, 0, .7);
+        -webkit-transition: background-color .5s;
+
+        .ctn {
+            box-shadow: 1px 0 10px rgba(0, 0, 0, .2);
+        }
+    }
+}
