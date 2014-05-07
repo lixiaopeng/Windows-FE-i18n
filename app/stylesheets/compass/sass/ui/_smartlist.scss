@@ -128,6 +128,8 @@
 
     > li {
         border-top: 1px #f3f3f3 solid;
+        position: absolute;
+        width: 100%;
 
         &:first-child {
             border-top-color: transparent;
