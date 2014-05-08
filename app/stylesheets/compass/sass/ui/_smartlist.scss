@@ -99,6 +99,7 @@
 .w-ui-smartlist-body-ctn {
     overflow: hidden;
     -webkit-box-flex: 1;
+    -webkit-transform: translate3d(0, 0, 0);
 }
 
 .w-ui-smartlist-scroll-ctn {
@@ -136,7 +137,7 @@
         }
 
         &:nth-child(odd):not(.highlight):not(:hover) {
-            background-color: transparent;;
+            background-color: transparent;
         }
 
         &:nth-child(even):not(.highlight):not(:hover) {
