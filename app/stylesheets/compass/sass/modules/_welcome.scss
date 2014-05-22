@@ -53,6 +53,47 @@
                     img {
                         -webkit-transition: opacity .4s;
                     }
+
+                    .offline-tip {
+                        left: 50%;
+                        position: absolute;
+                        -webkit-transform: translate3d(-50%, 50%, 0);
+                        -webkit-box-align: center;
+
+                        .icon {
+                            @include misc-sprite(usb-slot);
+                            height : 100px;
+                            margin-top: 40px;
+                            opacity: .7;
+                            width: 41px;
+                            -webkit-transition: opacity .2s;
+                        }
+
+                        .button-action {
+                            margin-top: 20px;
+                            opacity: 0;
+                            -webkit-transition: opacity .2s;
+                        }
+
+                        .desc {
+                            color: #fff;
+                            text-align: center;
+                        }
+
+                        &:hover {
+                            .button-action {
+                                opacity: 1;
+                            }
+
+                            .icon {
+                                opacity: 1;
+                            }
+                        }
+
+                        &.hide {
+                            display: none;
+                        }
+                    }
                 }
             }
         }
@@ -133,48 +174,6 @@
                 display: none;
             }
         }
-
-        .offline-tip {
-            left: 50%;
-            position: absolute;
-            top: 16%;
-            -webkit-transform: translate3d(-50%, 50%, 0);
-            -webkit-box-align: center;
-
-            .icon {
-                @include misc-sprite(usb-slot);
-                height : 100px;
-                margin-top: 40px;
-                opacity: .7;
-                width: 41px;
-                -webkit-transition: opacity .2s;
-            }
-
-            .button-action {
-                margin-top: 20px;
-                opacity: 0;
-                -webkit-transition: opacity .2s;
-            }
-
-            .desc {
-                color: #fff;
-                text-align: center;
-            }
-
-            &:hover {
-                .button-action {
-                    opacity: 1;
-                }
-
-                .icon {
-                    opacity: 1;
-                }
-            }
-
-            &.hide {
-                display: none;
-            }
-        }
     }
 
     &.isPad {
@@ -193,18 +192,19 @@
         .screen-wrap,
         .shadow {
             -webkit-transition-timing-function: ease-in;
+            .screen-ctn {
+                .screen {
+                    .offline-tip {
+                        left: 6%;
+                        top: 50%;
+                        -webkit-transform: translate3d(20%, -50%, 0) rotate(-90deg);
+                    }
+                }
+            }
         }
 
         .shadow {
             left: 130px;
-        }
-
-
-        .stage-ctn {
-            .offline-tip {
-                top: 51%;
-                -webkit-transform: translate3d(-50%, -50%, 0);
-            }
         }
     }
 
@@ -212,12 +212,14 @@
         .screen-wrap,
         .shadow {
             -webkit-transform: rotate(-90deg);
-        }
-
-        .stage-ctn {
-            .offline-tip {
-                top: 50%;
-                -webkit-transform: translate3d(-50%, -50%, 0);
+            .screen-ctn {
+                .screen {
+                    .offline-tip {
+                        left: 6%;
+                        top: 50%;
+                        -webkit-transform: translate3d(20%, -50%, 0) rotate(90deg);
+                    }
+                }
             }
         }
     }

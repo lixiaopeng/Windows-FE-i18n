@@ -13,7 +13,7 @@
     "USB_INSTALL_FAILED_NO_MORE_SPACE" : "Failed to install SnapPea on your phone, storage space is insufficient.",
     "USB_INSTALL_FAILED_INTERNAL_ERROR" : "Failed to install SnapPea on your phone, internal error on phone.",
     "USB_INSTALL_ALLOW" : "When you connect your phone, allow the installation of SnapPea on your phone.",
-    "PHTONE_DISCONNECTED" : "请您用 USB 线连接手机",
+    "PHTONE_DISCONNECTED" : "请你用 USB 线连接手机",
     "CONNECTION_IMMEDIATELY" : "立刻连接",
     "DEVICE_CONNECTING" : "正在连接你的手机",
     "DEVICE_DRIVER_INSTALLING" : "正在安装手机驱动",
