@@ -137,7 +137,7 @@
         .offline-tip {
             left: 50%;
             position: absolute;
-            top: 15%;
+            top: 16%;
             -webkit-transform: translate3d(-50%, 50%, 0);
             -webkit-box-align: center;
 
@@ -198,12 +198,27 @@
         .shadow {
             left: 130px;
         }
+
+
+        .stage-ctn {
+            .offline-tip {
+                top: 51%;
+                -webkit-transform: translate3d(-50%, -50%, 0);
+            }
+        }
     }
 
     &.turn-left {
         .screen-wrap,
         .shadow {
             -webkit-transform: rotate(-90deg);
+        }
+
+        .stage-ctn {
+            .offline-tip {
+                top: 50%;
+                -webkit-transform: translate3d(-50%, -50%, 0);
+            }
         }
     }
 
