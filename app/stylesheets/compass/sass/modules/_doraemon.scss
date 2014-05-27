@@ -54,6 +54,11 @@
             }
         }
 
+        .title {
+            line-height: 40px;
+            width: 124px;
+        }
+
         &.gallery {
             .icon {
                 @include nav-sprite(nav-gallery);
