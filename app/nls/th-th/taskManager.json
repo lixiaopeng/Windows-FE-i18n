@@ -155,8 +155,8 @@
   "DEVICE_NOT_FOUND":"เชื่อมต่ออุปกรณ์ของคุณเพื่อถ่ายโอน",
   "DEVICE_NOT_FOUND_TIP":"เชื่อมต่ออุปกรณ์ผ่านทาง USB หรือ Wi-Fi เพื่อให้ SnapPea เสร็จการดําเนินการ",
   "PUSHING_PHONE":"กําลังส่งไปยังโทรศัพท์...",
-  "PUSH_PHONE_FAILED":"การส่งไม่สําเร็จ",
-  "PUSH_PHONE_SUCCESS":"已发送，请在手机上查看",
+  "PUSH_PHONE_FAILED" : "发送失败，请稍后再试",
+  "PUSH_PHONE_SUCCESS" : "当前是无线连接，任务已经发送到手机上并开始下载",
   "RETRY_PUSH_PHONE":"ส่งอีกครั้ง",
   "CANCEL_PUSH_PHONE":"ยกเลิกการส่ง",
   "RETRY_INSTALL":"ลองอีกครั้ง",
@@ -165,5 +165,8 @@
   "DISK_NO_SPACE_CHANGE_FOLDER":"แก้ไขตำแหน่ง",
   "DISK_NO_SPACE_CLEAN_FOLDER":"จัดการดาวน์โหลด",
   "DISK_NO_SPACE_DESC":"ฮาร์ดดิสก์ของคุณเต็มแล้ว <br /> แก้ไขตำแหน่งที่ตั้งของโฟลเดอร์ดาวน์โหลด แล้วลองอีกครั้ง",
-  "DISK_NO_SPACE_CAN_NOT_USE_DESC":"คุณไม่สามารถดาวน์โหลดไปที่ตำแหน่งปัจจุบัน <br /> แก้ไขตำแหน่งที่ตั้งของโฟลเดอร์ดาวน์โหลด แล้วลองอีกครั้ง"
+  "DISK_NO_SPACE_CAN_NOT_USE_DESC":"คุณไม่สามารถดาวน์โหลดไปที่ตำแหน่งปัจจุบัน <br /> แก้ไขตำแหน่งที่ตั้งของโฟลเดอร์ดาวน์โหลด แล้วลองอีกครั้ง",
+  "FEEDBACK_LINK" : "http://www.wandoujia.com/help/?do=add_ticket",
+  "FEEDBACK" : "返回问题",
+  "NEED_USB_CONNECTION" : "请使用 USB 连接手机"
 }

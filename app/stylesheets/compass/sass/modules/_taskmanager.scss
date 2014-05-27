@@ -289,10 +289,17 @@
 
     .action {
         padding-left: 15px;
+        visibility: hidden;
         width: 230px;
 
         span {
             margin-left: 20px;
+        }
+    }
+
+    &.hover {
+        .action {
+            visibility: visible;
         }
     }
 }
