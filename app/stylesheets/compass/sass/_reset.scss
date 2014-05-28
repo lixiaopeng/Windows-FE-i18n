@@ -106,7 +106,7 @@ body {
 
 ::-webkit-scrollbar {
     height: 10px;
-    width: 10px;
+    width: 8px;
     -webkit-box-shadow: none;
 }
 
@@ -122,7 +122,7 @@ body {
 ::-webkit-scrollbar-track:vertical {
     background-clip: padding-box;
     background-color: transparent;
-    border-width: 0 0 0 3px;
+    border-width: 0;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -141,7 +141,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:vertical {
-    border-width: 0 0 0 3px;
+    border-width: 0;
 }
 
 ::-webkit-scrollbar-thumb:horizontal {
