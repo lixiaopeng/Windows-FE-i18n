@@ -383,16 +383,11 @@
 .w-task-capacity {
     @include footer-panel;
     box-sizing: border-box;
-    height: 0px;
+    height: 36px;
     overflow: hidden;
     padding: 0 10px;
     position: relative;
     -webkit-box-align: center;
-    -webkit-transition: height .4s linear;
-
-    &.show {
-        height: 36px;
-    }
 
     .icomoon {
         color: #888;
