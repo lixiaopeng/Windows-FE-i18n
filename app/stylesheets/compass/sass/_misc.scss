@@ -275,6 +275,7 @@
             float: left;
             height: 18px;
             width: 60px;
+            -webkit-app-region: drag;
         }
 
         .button-close {
@@ -292,6 +293,7 @@
             margin: 10px auto;
             position: absolute;
             width: 275px;
+            -webkit-app-region: drag;
         }
 
         .connecting {
@@ -300,6 +302,7 @@
             position: absolute;
             top: 80px;
             width: 98px;
+            -webkit-app-region: drag;
         }
     }
 
