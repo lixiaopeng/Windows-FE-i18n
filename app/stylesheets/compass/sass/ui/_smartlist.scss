@@ -99,6 +99,7 @@
 .w-ui-smartlist-body-ctn {
     overflow: hidden;
     -webkit-box-flex: 1;
+    -webkit-transform: translate3d(0, 0, 0);
 }
 
 .w-ui-smartlist-scroll-ctn {
@@ -116,30 +117,11 @@
 }
 
 .w-ui-smartlist-body-ctn {
-    &.odd > li {
-        &:nth-child(odd):not(.highlight):not(:hover) {
-            background-color: #f5f5f5;;
-        }
 
-        &:nth-child(even):not(.highlight):not(:hover) {
-            background-color: transparent;
-        }
-    }
-
-    > li {
+    li {
         border-top: 1px #f3f3f3 solid;
-
-        &:first-child {
-            border-top-color: transparent;
-        }
-
-        &:nth-child(odd):not(.highlight):not(:hover) {
-            background-color: transparent;;
-        }
-
-        &:nth-child(even):not(.highlight):not(:hover) {
-            background-color: #f5f5f5;
-        }
+        position: absolute;
+        width: 100%;
 
         &.highlight {
             background-color: $checkedColor;
@@ -157,6 +139,18 @@
         &:hover,
         &.highlight:hover {
             background-color: $listItemHoverColor;
+        }
+
+        &.odd {
+            &:not(.highlight):not(:hover) {
+                background-color: #f5f5f5;;
+            }
+        }
+
+        &.even{
+            &:not(.highlight):not(:hover) {
+                background-color: transparent;
+            }
         }
     }
 
