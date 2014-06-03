@@ -583,7 +583,10 @@
 .w-ui-smartlist-body-ctn {
     .category {
         line-height: 36px;
-        padding-left: 10px;
+
+        .info {
+                padding-left: 10px;
+        }
     }
 
     &.odd > .category {
