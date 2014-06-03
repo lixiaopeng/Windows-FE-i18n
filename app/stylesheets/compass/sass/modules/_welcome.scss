@@ -118,11 +118,8 @@
             }
 
             &:hover {
-                .button-action {
-                    opacity: 1;
-                }
-
-                .icon {
+                .button-action,
+		.icon {
                     opacity: 1;
                 }
             }
