@@ -148,7 +148,7 @@
             }
         }
 
-        &.even{
+        &.even {
             &:not(.highlight):not(:hover) {
                 background-color: transparent;
             }
