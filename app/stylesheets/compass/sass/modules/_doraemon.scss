@@ -85,7 +85,7 @@
 .w-doraemon-module-main {
     .w-ui-toolbar {
         .debug-wrap {
-            -webkit-box-align: center;
+            align-items: center;
 
             span {
                 font-size: 14px;
@@ -93,8 +93,8 @@
         }
 
         .flex-right {
-            -webkit-box-flex: 1;
-            -webkit-box-pack: end;
+            /*flex: 1;*/
+            justify-content: flex-end;
         }
     }
 }
@@ -104,13 +104,13 @@
  ********************************************************************************/
 .w-extension-list-ctn {
     margin-top: 1px;
-    -webkit-box-flex: 1;
+    /*flex: 1;*/
 
     .w-smart-list-header {
         .name {
             margin-left: 45px;
             margin-right: 5px;
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
 
         .developer {
@@ -131,7 +131,7 @@
 
 .w-extension-list-item {
     padding: 4px 0;
-    -webkit-box-align: center;
+    align-items: center;
 
     .item-checker-wrap {
         padding: 9px 10px;
@@ -154,7 +154,7 @@
 
     .name {
         margin-right: 5px;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 
     .developer {

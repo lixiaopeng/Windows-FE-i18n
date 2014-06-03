@@ -7,8 +7,8 @@
 
 .w-backuprestore-module-main {
     background: url("../images/welcome_bg_100X100.png");
-    -webkit-box-pack: center;
-    -webkit-box-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .w-backuprestore-start {
@@ -17,8 +17,8 @@
 
     .action-panel {
         height: 300px;
-        -webkit-box-align: center;
-        -webkit-box-pack: center;
+        align-items: center;
+        justify-content: center;
 
         .container {
             background-color: #fff;
@@ -86,7 +86,7 @@
                     background: #58b745;
                     cursor: pointer;
                     height: 135px;
-                    -webkit-box-align: center;
+                    align-items: center;
                     -webkit-transition: background .2s;
 
                     &:hover {
@@ -102,8 +102,8 @@
                         margin-top: 40px;
                         margin-bottom: 10px;
                         width: 280px;
-                        -webkit-box-align: center;
-                        -webkit-box-pack: center;
+                        align-items: center;
+                        justify-content: center;
 
                         .action-icon {
                             height: 32px;
@@ -148,7 +148,7 @@
 
     .info-panel {
         height: 140px;
-        -webkit-box-align: center;
+        align-items: center;
 
         .info-panel {
             height: 40px;
@@ -165,7 +165,7 @@
             &.auto-backup-local {
                 margin-left: 5px;
                 margin-right: 5px;
-                -webkit-box-pack: center;
+                justify-content: center;
 
                 .icon {
                     @include backuprestore-sprite(pc);
@@ -174,7 +174,7 @@
 
             &.auto-backup-remote{
                 margin-left: 5px;
-                -webkit-box-pack: end;
+                justify-content: flex-end;
 
                 .icon {
                     @include backuprestore-sprite(cloud);
@@ -225,7 +225,7 @@
     border-bottom: 3px #ccc solid;
     border-top: 3px #ccc solid;
     height: 250px;
-    -webkit-box-pack: center;
+    justify-content: center;
 
     .content-box {
         height: 250px;
@@ -243,8 +243,8 @@
             margin-bottom: 30px;
             margin-top: 90px;
             width: 210px;
-            -webkit-box-align: center;
-            -webkit-box-pack: center;
+            align-items: center;
+            justify-content: center;
 
             .count {
                 color: black;
@@ -329,13 +329,13 @@
 
     .left {
         margin-top: 15px;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 
     .right {
         margin-top: 10px;
         width: 200px;
-        -webkit-box-pack: end;
+        justify-content: flex-end;
 
         button {
             margin-left: 20px;
@@ -415,7 +415,7 @@
 
     .content-ctn {
         margin-left: 20px;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
 
         em {
             color: $textHighlight;
@@ -435,14 +435,14 @@
         border: 1px $borderColor solid;
         height: 144px;
         overflow-y: auto;
-        -webkit-box-align: center;
+        align-items: center;
 
         li {
             border-bottom: 1px solid #ccc;
             border-right: 1px solid #ccc;
             padding: 1px 0;
-            -webkit-box-align: center;
-            -webkit-box-flex: 1;
+            align-items: center;
+            /*flex: 1;*/
 
             .icon {
                 height: 36px;
@@ -456,7 +456,7 @@
             }
 
             .name {
-                -webkit-box-flex: 1;
+                /*flex: 1;*/
             }
 
             .size {
@@ -479,8 +479,8 @@
 
 .w-backuprestore-download {
 
-    -webkit-box-align: center;
-    -webkit-box-pack: center;
+    align-items: center;
+    justify-content: center;
 
     progress {
         width: 220px;
@@ -507,10 +507,10 @@
     .name {
 
         color: black;
-        display: -webkit-box;
+        display: flex;
         width: 340px;
-        -webkit-box-pack: start;
-        -webkit-box-align: center;
+        justify-content: flex-start;
+        align-items: center;
 
         input {
             margin-left: 5px;
@@ -530,8 +530,8 @@
 
     .num-container {
         width: 100px;
-        -webkit-box-pack: start;
-        -webkit-box-align: center;
+        justify-content: flex-start;
+        align-items: center;
 
         .icon {
             height: 24px;
@@ -637,7 +637,7 @@
     .content-ctn {
         margin-left: 25px;
         margin-top: 15px;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
 
         .title {
             font-size: 18px;
@@ -666,7 +666,7 @@
 
     .content-ctn {
         margin-left: 20px;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
 
         em {
             color: $textHighlight;
@@ -693,7 +693,7 @@
     .content-ctn {
         margin-left: 25px;
         margin-top: 15px;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
 
         .title {
             font-size: 18px;

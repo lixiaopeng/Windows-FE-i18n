@@ -22,7 +22,7 @@ body {
     &.snappea-itunes,
     &.snappea-youtube,
     &.snappea-feedback {
-        -webkit-box-align: center;
+        align-items: center;
 
         .info-ctn {
             .title {

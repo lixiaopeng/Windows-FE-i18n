@@ -49,7 +49,7 @@
         div.group,
         div.link {
             display: block;
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
 
         label {
@@ -129,14 +129,14 @@
     position: relative;
 
     .tab {
-        -webkit-box-pack: center;
+        justify-content: center;
 
         li {
             color: $textSecondary;
             height: 28px;
             padding: 0 3px;
             text-shadow: 0 1px 0 #fff;
-            -webkit-box-align: center;
+            align-items: center;
 
             .count {
                 @include badge;
@@ -176,7 +176,7 @@
         position: absolute;
         right: 0;
         top: 2px;
-        -webkit-box-align: center;
+        align-items: center;
 
         button {
             &:not(.primary) {

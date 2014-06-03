@@ -19,7 +19,7 @@
         background: -webkit-linear-gradient(rgba(0,0,0,0.04) 0%, rgba(0,0,0,0) 9%), url("../images/welcome_bg_100X100.png");
 
         .developer-wrap {
-            -webkit-box-align: center;
+            align-items: center;
 
             .label {
                 margin-left: 5px;
@@ -36,7 +36,7 @@
 
     .browser-ctn {
         position: relative;
-        -webkit-box-flex: 1;
+        flex: 1 1 auto;
 
         .progress {
             height: 1px;
@@ -79,10 +79,10 @@
             position: absolute;
             right: 10px;
             top: -1px;
-            -webkit-box-align: center;
+            align-items: center;
 
             .des {
-                -webkit-box-flex: 1;
+                /*flex: 1;*/
             }
 
             .button-install-flash {
@@ -115,7 +115,7 @@
     text-shadow: 0 1px 0 #fff;
 
     .ctn {
-        -webkit-box-align: center;
+        align-items: center;
 
         .icon {
             height: 32px;
@@ -129,7 +129,7 @@
         }
 
         .info {
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
 
             .tip,
             .button-install {
@@ -147,8 +147,8 @@
  * Browser Menu
  ********************************************************************************/
 .w-browser-menu {
-    -webkit-box-flex: 1;
-    -webkit-box-pack: center;
+    flex: 1 1 auto;
+    justify-content: center;
 
     .root-item {
         box-sizing: border-box;
@@ -251,7 +251,7 @@
     }
 
     .content {
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
 
         .title {
             font-size: 16px;
@@ -259,7 +259,7 @@
 
         .des {
             line-height: 28px;
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
     }
 
@@ -285,7 +285,7 @@
 
         .content-label {
             margin-top: 10px;
-            -webkit-box-align: start;
+            align-items: flex-start;
 
             .input-content {
                 height: 100px;
@@ -294,7 +294,7 @@
         }
 
         .email-label {
-            -webkit-box-align: center;
+            align-items: center;
 
             .input-email {
                 width: 360px;
@@ -317,7 +317,7 @@
     }
 
     .info {
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
 
         h2 {
             color: #000;

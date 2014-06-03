@@ -17,7 +17,7 @@
  ********************************************************************************/
 .w-optimize-scan {
     background-color: rgb(246, 251, 253);
-    -webkit-box-flex: 1;
+    /*flex: 1;*/
 
     .progress {
         border: {
@@ -26,7 +26,7 @@
             bottom-width: 1px;
         }
         padding: 10px 50px;
-        -webkit-box-align: center;
+        align-items: center;
 
         .pre-scan,
         .warn,
@@ -94,25 +94,25 @@
         .action {
             height: 70px;
             padding-bottom: 15px;
-            -webkit-box-pack: end;
+            justify-content: flex-end;
         }
     }
 
     .monitor-ctn {
         padding: 10px;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
 
         .monitor {
             background: {
                 position: left bottom;
                 repeat: no-repeat;
             }
-            -webkit-box-pack: center;
-            -webkit-box-flex: 1;
+            justify-content: center;
+            /*flex: 1;*/
 
             .button-ctn {
-                -webkit-box-align: center;
-                -webkit-box-pack: center;
+                align-items: center;
+                justify-content: center;
 
                 .button-scan {
                     @include tx-sprite(scan);
@@ -131,8 +131,8 @@
         }
 
         .vendor {
-            -webkit-box-align: center;
-            -webkit-box-pack: end;
+            align-items: center;
+            justify-content: flex-end;
 
             .logo {
                 @include tx-sprite(logo);
@@ -144,8 +144,8 @@
     }
 
     .w-optimize-scan-progress {
-        -webkit-box-align: center;
-        -webkit-box-flex: 1;
+        align-items: center;
+        /*flex: 1;*/
 
         .button-optimize-all {
             @include tx-sprite(optimize);
@@ -171,7 +171,7 @@
 
     .w-optimize-scan-monitor {
         padding: 30px 50px;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
 
         .virus,
         .cache,
@@ -179,7 +179,7 @@
         .upfate,
         .backup {
             display: none;
-            -webkit-box-align: center;
+            align-items: center;
         }
 
         h2 {
@@ -188,10 +188,10 @@
 
         li {
             line-height: 30px;
-            -webkit-box-align: center;
+            align-items: center;
 
             .tip {
-                -webkit-box-flex: 1;
+                /*flex: 1;*/
             }
 
             .link {

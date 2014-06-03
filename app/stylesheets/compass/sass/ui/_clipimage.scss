@@ -4,14 +4,14 @@
  * @author lixiaopeng@wandoujia.com
  ********************************************************************************/
  @import "../skins/default/default";
- 
+
  .w-ui-clip-image{
-    display: -webkit-box;
+    display: flex;
     position: relative;
     overflow: hidden;
-    -webkit-box-align: center;
-    -webkit-box-pack: center;
-    -webkit-box-flex: 1;
+    align-items: center;
+    justify-content: center;
+    /*flex: 1;*/
 
     .cliping-box{
         position:absolute;
@@ -72,7 +72,7 @@
             right: 0px;
         }
     }
-    
+
     .mask{
         background: #000;
         border-radius: 3px;
@@ -83,7 +83,7 @@
         top: 0;
         width: 100%;
     }
-    
+
     .origin-img{
         -webkit-user-select: none;
     }

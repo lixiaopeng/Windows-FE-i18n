@@ -24,7 +24,7 @@
 
     .content-ctn {
         padding-left: 20px;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
 
         .header-text {
             margin-bottom: 5px;
@@ -33,7 +33,7 @@
 
     .footer-ctn {
         padding-top: 10px;
-        -webkit-box-pack: end;
+        justify-content: flex-end;
     }
 }
 
@@ -65,8 +65,8 @@
         height: 55px;
 
         .item {
-            -webkit-box-flex: 1;
-            -webkit-box-align: center;
+            /*flex: 1;*/
+            align-items: center;
 
             .icon {
                 height: 39px;
@@ -125,7 +125,7 @@
         }
 
         .content-ctn {
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
 
             .title {
                 font-size: 18px;

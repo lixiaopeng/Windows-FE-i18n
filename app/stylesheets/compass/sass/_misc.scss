@@ -39,7 +39,7 @@
             }
 
             .des {
-                -webkit-box-flex: 1;
+                /*flex: 1;*/
             }
 
             + li {
@@ -79,8 +79,8 @@
 
 
 .w-notify-setting {
-    -webkit-box-align: center;
-    -webkit-box-flex: 1;
+    align-items: center;
+    /*flex: 1;*/
 
     .setting-icon {
         @include sprite-sprite(setting);
@@ -102,8 +102,8 @@
 
     .ctn {
         height: 100%;
-        -webkit-box-align: center;
-        -webkit-box-pack: center;
+        align-items: center;
+        justify-content: center;
 
         .tip {
             margin-right: 10px;
@@ -143,12 +143,12 @@
     position: absolute;
     right: 0;
     top: 0;
-    -webkit-box-align: center;
-    -webkit-box-pack: center;
+    align-items: center;
+    justify-content: center;
 
     .tip {
         text-align: center;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 
     .button-close {

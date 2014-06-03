@@ -31,17 +31,17 @@
         box-sizing: border-box;
         padding: 5px;
         position: relative;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 
     .w-guide-card {
         overflow: hidden;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
 
         .stage {
             background-image: url('../images/welcome_bg_100X100.png');
             padding: 15px 30px;
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
 
             h1 {
                 margin-bottom: 5px;
@@ -66,10 +66,8 @@
         height: 28px;
         line-height: 28px;
         margin-top: 5px;
-        -webkit-box: {
-            align: center;
-            pack: end;
-        }
+        align-items: center;
+        justify-content: flex-end;
 
         .text-counter {
             left: 50%;
@@ -193,8 +191,8 @@
         }
 
         .login-ctn {
-            -webkit-box-align: center;
-            -webkit-box-pack: center;
+            align-items: center;
+            justify-content: center;
 
             .button-login {
                 margin-right: 15px;
@@ -313,7 +311,7 @@
 
         .tip {
             height: 34px;
-            -webkit-box-align: center;
+            align-items: center;
 
             .icon {
                 display: block;
@@ -329,7 +327,7 @@
             }
 
             .desc {
-                -webkit-box-flex: 1;
+                /*flex: 1;*/
             }
 
             span {

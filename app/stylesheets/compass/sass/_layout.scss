@@ -21,25 +21,15 @@
 
 .hbox,
 .vbox {
-    display: -webkit-box;
-    -webkit-box: {
-        align: stretch;
-        direction: normal;
-        orient: horizontal;
-        pack: start;
-    }
+    display: flex;
 }
 
 .hbox {
-    -webkit-box-orient: horizontal;
+    flex-direction: row;
 }
 
 .vbox {
-    -webkit-box-orient: vertical;
-}
-
-.box-reverse {
-    -webkit-box-direction: reverse;
+    flex-direction: column;
 }
 
 /********************************************************************************
@@ -102,8 +92,8 @@ html, body, .w-main {
 
 .w-main-pim-mask {
     background-color: #f6f6f6;
-    -webkit-box-pack: center;
-    -webkit-box-align: center;
+    justify-content: center;
+    align-items: center;
     -webkit-transition: opacity 0.5s;
 
     .w-main-pim-mask-ctn {

@@ -41,11 +41,11 @@
     border-bottom: 1px $splitLineColor solid;
     box-shadow: 0 1px 0 #fff inset;
     padding: 7px 8px 7px 10px;
-    -webkit-box-align: center;
+    align-items: center;
 }
 
 .w-ui-window-header-title {
-    -webkit-box-flex: 1;
+    /*flex: 1;*/
 }
 
 .w-ui-window-header-x {
@@ -55,7 +55,7 @@
 .w-ui-window-body {
     min-height: 2em;
     padding: 15px 15px 10px;
-    -webkit-box-flex: 1;
+    /*flex: 1;*/
 
     p + p {
         margin-top: 1em;
@@ -82,7 +82,7 @@
 
 .w-ui-window-footer-monitor {
     line-height: 25px;
-    -webkit-box-flex: 1;
+    /*flex: 1;*/
 }
 
 .w-ui-window-footer-button-ctn {
@@ -105,11 +105,11 @@
         margin-top: 5px;
 
         progress {
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
     }
 
     .tip {
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 }

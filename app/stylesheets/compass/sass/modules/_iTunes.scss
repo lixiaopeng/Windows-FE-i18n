@@ -1,6 +1,6 @@
 /********************************************************************************
  * This is the CSS declaration of iTunes Importor
- * 
+ *
  * @author lixiaomeng@wandoujia.com
  ********************************************************************************/
  @import "../skins/default/default";
@@ -21,7 +21,7 @@
 
         & input {
             margin: -3px 5px 0 0;
-        } 
+        }
     }
 }
 
@@ -103,7 +103,7 @@
 
 .itunes-play-list-item {
     height : 30px;
-    -webkit-box-align: center;
+    align-items: center;
 
     .list-name {
         margin-left: 10px;
@@ -152,7 +152,7 @@
 
 .itunes-audio-list-item {
     height : 30px;
-    -webkit-box-align: center;
+    align-items: center;
 
     .audio-name {
         margin-left: 10px;

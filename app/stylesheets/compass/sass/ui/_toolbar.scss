@@ -11,7 +11,7 @@
     height: 35px;
     position: relative;
     width: 100%;
-    -webkit-box-align: center;
+    align-items: center;
 
     .w-icon-btn {
         &.primary {
@@ -119,12 +119,10 @@
 
     .selector-wrap {
         color: #999;
+        flex: 1  auto;
         padding-right: 10px;
         text-shadow: 0 1px 0 #fff;
-        -webkit-box: {
-            align: center;
-            flex: 1;
-            pack: end;
-        }
+        align-items: center;
+        justify-content: flex-end;
     }
 }

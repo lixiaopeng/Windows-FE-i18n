@@ -13,7 +13,7 @@
     .w-app-ctn {
         margin-top: 1px;
         position: relative;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 
     .w-ui-toolbar {
@@ -58,7 +58,7 @@
         }
 
         .title {
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
 
             .name {
                 font-weight: bold;
@@ -139,7 +139,7 @@
         }
 
         .version {
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
 
         .button-navigate-to-version {
@@ -232,7 +232,7 @@
             height: 36px;
             margin-bottom: 10px;
             position: relative;
-            -webkit-box-align: center;
+            align-items: center;
 
             &:last-child {
                 margin-bottom: 0;
@@ -247,7 +247,7 @@
             }
 
             .body {
-                -webkit-box-flex: 1;
+                /*flex: 1;*/
 
                 .title {
                     cursor: pointer;
@@ -350,7 +350,7 @@
         display: none;
         height: 28px;
         line-height: 28px;
-        -webkit-box-pack: center;
+        justify-content: center;
     }
 
     .header-tip {
@@ -364,11 +364,11 @@
             height: 25px;
             text-align: center;
             width: 100%;
-            -webkit-box-align: center;
+            align-items: center;
         }
 
         .tip {
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
 
         .button-close {
@@ -384,11 +384,11 @@
         height: 36px;
         line-height: 36px;
         padding: 0 10px;
-        -webkit-box-align: center;
-        -webkit-box-pack: center;
+        align-items: center;
+        justify-content: center;
 
         .content {
-            -webkit-box-pack: center;
+            justify-content: center;
 
             .count {
                 margin-right: 15px;
@@ -413,7 +413,7 @@
             }
 
             .web-update {
-                display: -webkit-box;
+                display: flex;
             }
         }
     }
@@ -447,7 +447,7 @@
     height: 36px;
     padding: 4px 0;
     position: relative;
-    -webkit-box-align: center;
+    align-items: center;
 
     .item-checker-wrap {
         padding: 9px 10px;
@@ -455,8 +455,8 @@
 
     .info {
         margin-right: 5px;
-        -webkit-box-align: center;
-        -webkit-box-flex: 1;
+        align-items: center;
+        /*flex: 1;*/
 
         .icon {
             display: block;
@@ -466,14 +466,14 @@
         }
 
         .name {
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
             .version-tip {
                 display: none;
             }
         }
 
         .base-info {
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
 
             .update-to {
                 margin-left: 5px;
@@ -506,10 +506,10 @@
     .web-update {
         margin-right: 12px;
         width: 120px;
-        -webkit-box-align: center;
+        align-items: center;
 
         progress {
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
 
         .link {
@@ -557,7 +557,7 @@
     }
 
     .info {
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 
     .current-version,
@@ -698,7 +698,7 @@
     .w-app-batch-list-ctn {
         background: #fff;
         border: 1px $borderColor solid;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 
     .w-app-list-item  {
@@ -733,7 +733,7 @@
     .content {
         margin-top: 5px;
         overflow-y: auto;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 }
 
@@ -762,7 +762,7 @@
             }
 
             &:last-child {
-                -webkit-box-flex: 1;
+                /*flex: 1;*/
             }
 
             .title {
@@ -774,7 +774,7 @@
                 font-size: 24px;
                 line-height: 30px;
                 text-shadow: 0 1px 0 #fff;
-                -webkit-box-flex: 1;
+                /*flex: 1;*/
 
                 &:hover {
                     color: $textPrimary;
@@ -841,14 +841,14 @@
             display: none;
 
             .ctn {
-                -webkit-box-align: center;
+                align-items: center;
 
                 .input-code {
                     box-sizing: border-box;
                     display: block;
                     height: 25px;
                     margin-right: 5px;
-                    -webkit-box-flex: 1;
+                    /*flex: 1;*/
                 }
 
                 .code {
@@ -867,7 +867,7 @@
     .w-social-platform-selector {
         line-height: 24px;
         text-align: left;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 }
 
@@ -889,7 +889,7 @@
         li {
             height: 36px;
             padding: 5px;
-            -webkit-box-align: center;
+            align-items: center;
 
             .icon img {
                 height: 36px;
@@ -898,12 +898,12 @@
 
             .base-info {
                 margin-left: 5px;
-                -webkit-box-flex: 1;
+                /*flex: 1;*/
             }
 
             .update-info {
                 margin-left: 5px;
-                -webkit-box-flex: 1;
+                /*flex: 1;*/
             }
 
             .base-info .version-name {
@@ -916,12 +916,12 @@
     }
 
     .manage-ctn {
-        -webkit-box-align: center;
+        align-items: center;
 
         .mid-ctn {
             margin-right: 15px;
             text-align: right;
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
 
         .button-config {
@@ -955,14 +955,14 @@
  * Local install window
  ********************************************************************************/
 .w-app-local-install {
-    -webkit-box-flex: 1;
+    /*flex: 1;*/
 
     .btn-ctn {
-        -webkit-box-align: center;
+        align-items: center;
 
         .tip {
             margin-left: 10px;
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
     }
 
@@ -970,7 +970,7 @@
         border: 1px $borderColor solid;
         border-radius: 3px;
         margin-top: 10px;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
 
         .w-smart-list-header {
             border-radius: 3px 3px 0 0;

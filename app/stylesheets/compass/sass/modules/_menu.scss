@@ -11,7 +11,7 @@
     overflow-y: auto;
     position: relative;
     width: 189px;
-    -webkit-box-flex: 1;
+    /*flex: 1;*/
 
     .w-menu-pim {
         border-top: 1px solid #3f4346;
@@ -34,10 +34,10 @@
         font-size: 12px;
         height: 27px;
         text-shadow: 0 1px 0 #000;
-        -webkit-box-align: center;
+        align-items: center;
 
         .label {
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
 
         .icon {

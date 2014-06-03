@@ -11,7 +11,7 @@
     .w-contact-ctn {
         margin-top: 1px;
         position: relative;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 }
 
@@ -134,7 +134,7 @@
         dd {
             height: 32px;
             float: left;
-            -webkit-box-align: center;
+            align-items: center;
 
             input {
                 width: 230px;
@@ -150,7 +150,7 @@
 
     .btn-ctn {
         margin-left: 102px;
-        -webkit-box-align: center;
+        align-items: center;
 
         .running {
             display: none;
@@ -182,7 +182,7 @@
 
     .contact-info {
         overflow-y: auto;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
 
         h1 {
             margin: {
@@ -232,7 +232,7 @@
             }
 
             .infos {
-                -webkit-box-flex: 1;
+                /*flex: 1;*/
 
                 .name {
                     font-size: 32px;
@@ -242,7 +242,7 @@
 
                 .nickname {
                     line-height: 30px;
-                    -webkit-box-flex: 1;
+                    /*flex: 1;*/
                 }
             }
         }
@@ -439,7 +439,7 @@
     .w-contact-batch-contacts-list-ctn {
         background: #fff;
         border: 1px $borderColor solid;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
 
         .w-contact-list-item {
             .item-checker-wrap,
@@ -469,7 +469,7 @@
     }
 
     .star {
-        -webkit-box-align: center;
+        align-items: center;
 
         .star-img {
             @include button-star;
@@ -504,12 +504,12 @@
     }
 
     .body {
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 
     .group-menu {
         margin-right: 12px;
-        -webkit-box-align: center;
+        align-items: center;
 
         li {
             height: 8px;
@@ -568,7 +568,7 @@
         margin-top: 5px;
 
         li {
-            -webkit-box-align: center;
+            align-items: center;
 
             .squar {
                 height: 8px;
@@ -595,14 +595,14 @@
 ********************************************************************************/
 
 .w-contact-group-mangaer-body-ctn {
-    -webkit-box-flex: 1;
+    /*flex: 1;*/
 
     .w-group-manager-header {
         margin-bottom: 10px;
-        -webkit-box-align: center;
+        align-items: center;
 
         .selector-ctn {
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
 
             .w-contact-account-selector {
                 width: 220px;
@@ -619,7 +619,7 @@
         .w-group-manager-list-header {
             .group-name {
                 padding-left: 12px;
-                -webkit-box-flex: 1;
+                /*flex: 1;*/
             }
 
             .group-action {
@@ -630,7 +630,7 @@
 
         .group-manager-item {
             height : 26px;
-            -webkit-box-align: center;
+            align-items: center;
 
             .delete {
                 width: 98px;
@@ -671,13 +671,13 @@
  * Detail Edit Panel
  ********************************************************************************/
 .w-contact-avatar-editor {
-    -webkit-box-flex: 1;
+    /*flex: 1;*/
 
     .ctrl-ctn {
-        -webkit-box-align: center;
+        align-items: center;
 
         .btn-ctn {
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
 
         .button-delete {
@@ -745,14 +745,14 @@
     }
 
     .progress-desc {
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 
     .progress-ctn {
         margin: 5px auto;
 
         progress {
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
     }
 }
@@ -765,11 +765,11 @@
         font-weight: bold;
         height: 35px;
         margin-top: 10px;
-        -webkit-box-align: center;
+        align-items: center;
 
         .backup-record {
             margin-left: 80px;
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
 
         .contact-number {
@@ -791,7 +791,7 @@
 
                 label {
                     height: 35px;
-                    -webkit-box-align: center;
+                    align-items: center;
 
                     input[type="radio"] {
                         margin: {
@@ -806,7 +806,7 @@
                     }
 
                     .title {
-                        -webkit-box-flex: 1;
+                        /*flex: 1;*/
                     }
 
                     .count {
@@ -855,14 +855,14 @@
     }
 
     .progress-desc {
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 
     .progress-ctn {
         margin-top: 5px;
 
         progress {
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
     }
 }
@@ -904,5 +904,5 @@
 }
 
 .w-contact-avatat-edit-body {
-    -webkit-box-flex: 1;
+    /*flex: 1;*/
 }

@@ -143,12 +143,12 @@
         padding: 0 5px;
         position: absolute;
         width: 100%;
-        -webkit-box-align: center;
+        align-items: center;
         -webkit-transform: translate3d(0, 0, 0);
         -webkit-transition: -webkit-transform .2s;
 
         .placeholder {
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
 
         .button-info {

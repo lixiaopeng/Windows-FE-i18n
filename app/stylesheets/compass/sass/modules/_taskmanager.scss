@@ -21,7 +21,7 @@
             fill-mode: forwards;
             name: module-slide-in;
         }
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
 
         .w-ui-toolbar {
             .button-close {
@@ -88,7 +88,7 @@
             height: 36px;
             left: 0;
             position: absolute;
-            -webkit-box-align: center;
+            align-items: center;
 
             .icon {
                 height: 16px;
@@ -212,7 +212,7 @@
 .w-task-list-ctn {
     margin-top: 1px;
     position: relative;
-    -webkit-box-flex: 1;
+    /*flex: 1;*/
 
     header {
         .name {
@@ -220,7 +220,7 @@
             max-height: 36px;
             overflow: hidden;
             word-break: break-all;
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
 
         .size {
@@ -243,7 +243,7 @@
 
 .w-task-manager-list-item {
     padding: 4px 0;
-    -webkit-box-align: center;
+    align-items: center;
 
     .item-checker-wrap {
         padding: 9px 10px;
@@ -264,7 +264,7 @@
         max-height: 36px;
         overflow: hidden;
         word-break: break-word;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 
     .size {
@@ -279,10 +279,10 @@
 
         .progress {
             height: 18px;
-            -webkit-box-align: center;
+            align-items: center;
 
             progress {
-                -webkit-box-flex: 1;
+                /*flex: 1;*/
             }
         }
     }
@@ -318,7 +318,7 @@
 
     li {
         min-width: 90px;
-        -webkit-box-align: center;
+        align-items: center;
 
 
         .icon {
@@ -394,21 +394,21 @@
     overflow: hidden;
     padding: 0 10px;
     position: relative;
-    -webkit-box-align: center;
+    align-items: center;
 
     .icomoon {
         color: #888;
     }
 
     .info {
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
 
         .info-device,
         .info-sd-internal,
         .info-sd-external {
             cursor: pointer;
             margin-right: 20px;
-            -webkit-box-align: center;
+            align-items: center;
         }
 
         progress.highlight {

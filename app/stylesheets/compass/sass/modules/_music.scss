@@ -9,7 +9,7 @@
  ********************************************************************************/
 .w-music-list {
     margin-top: 1px;
-    -webkit-box-flex: 1;
+    /*flex: 1;*/
 
     .w-music-list-header {
         .check-select-all-wrap {
@@ -18,7 +18,7 @@
 
         .title {
             margin-left: 34px;
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
     }
 }
@@ -31,7 +31,7 @@
     .title {
         margin-right: 5px;
         padding-left: 5px;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 
     .artist {
@@ -69,7 +69,7 @@
 .w-music-list-item {
     height: 24px;
     padding: 5px 0;
-    -webkit-box-align: center;
+    align-items: center;
 
     .item-checker-wrap {
         padding: 3px 10px;
@@ -78,7 +78,7 @@
     .title {
         margin-right: 5px;
         padding-left: 5px;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 
     .artist {
@@ -242,7 +242,7 @@
             }
 
             button {
-                display: -webkit-box;
+                display: flex;
             }
         }
     }
@@ -252,14 +252,14 @@
  * Import local musics window
  ********************************************************************************/
 .w-music-local-import {
-    -webkit-box-flex: 1;
+    /*flex: 1;*/
 
     .btn-ctn {
-        -webkit-box-align: center;
+        align-items: center;
 
         .tip {
             margin-left: 10px;
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
     }
 
@@ -267,7 +267,7 @@
         border: 1px $borderColor solid;
         border-radius: 3px;
         margin-top: 10px;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
 
         .w-music-list-item {
             .play,
@@ -283,7 +283,7 @@
     .itunes-wrap {
         text-align: right;
         padding-right: 5px;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
 
         .button-itunes {
             display: none;
@@ -294,7 +294,7 @@
 .w-music-set-ring-list {
     border: 1px $borderColor solid;
     border-radius: 3px;
-    -webkit-box-flex: 1;
+    /*flex: 1;*/
 
     .w-music-list-item {
         .item-checker-wrap,

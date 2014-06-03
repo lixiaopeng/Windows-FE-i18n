@@ -10,7 +10,7 @@
 .w-photo-gallery-ctn {
     background-image: url(../images/texture-grey-bg-80X80.png);
     position: relative;
-    -webkit-box-flex: 1;
+    /*flex: 1;*/
 }
 
 .w-photo-ios-banner-ctn {
@@ -156,9 +156,9 @@
     .photo-ctn {
         text-align: center;
         position: relative;
-        -webkit-box-align: center;
-        -webkit-box-pack: center;
-        -webkit-box-flex: 1;
+        align-items: center;
+        justify-content: center;
+        /*flex: 1;*/
 
         .photo {
             opacity: 1;
@@ -187,7 +187,7 @@
             position: absolute;
             top: 0;
             width: 50%;
-            -webkit-box-align: center;
+            align-items: center;
 
             .button {
                 height: 42px;
@@ -218,7 +218,7 @@
 
         .button-next {
             right: 0;
-            -webkit-box-pack: end;
+            justify-content: flex-end;
 
             .button {
                 @include sprite-sprite(photo-next);
@@ -267,8 +267,8 @@
 
     .control {
         height: 70px;
-        -webkit-box-align: center;
-        -webkit-box-pack: end;
+        align-items: center;
+        justify-content: flex-end;
 
         .tip {
             color: #fff;
@@ -279,7 +279,7 @@
 
         .buttons {
             height: 100%;
-            -webkit-box-pack: center;
+            justify-content: center;
 
             .btn-ctn {
                 background-color: #303030;
@@ -352,7 +352,7 @@
 
     .title {
         margin-right: 5px;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 
     .format {
@@ -366,7 +366,7 @@
 
 .w-photo-list-item {
     padding: 4px 0;
-    -webkit-box-align: center;
+    align-items: center;
 
     .item-checker-wrap {
         padding: 12px 15px;
@@ -384,7 +384,7 @@
 
     .title {
         margin-right: 5px;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 
     .format {
@@ -406,14 +406,14 @@
  * Import local photos window
  ********************************************************************************/
 .w-photo-local-import {
-    -webkit-box-flex: 1;
+    /*flex: 1;*/
 
     .btn-ctn {
-        -webkit-box-align: center;
+        align-items: center;
 
         .tip {
             margin-left: 10px;
-            -webkit-box-flex: 1;
+            /*flex: 1;*/
         }
     }
 
@@ -421,6 +421,6 @@
         border: 1px $borderColor solid;
         border-radius: 3px;
         margin-top: 10px;
-        -webkit-box-flex: 1;
+        /*flex: 1;*/
     }
 }
