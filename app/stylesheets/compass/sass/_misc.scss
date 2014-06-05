@@ -160,7 +160,9 @@
     }
 }
 
-.w-misc-agent-notifi {
+.w-misc-agent-notifi,
+.w-misc-auto-connection-notifi,
+.w-misc-disconnection-notifi {
     padding: 5px 0;
     text-align: center;
     width: 185px;
@@ -194,7 +196,22 @@
     }
 }
 
-.w-misc-device-binding-cloud{
+.w-misc-auto-connection-notifi,
+.w-misc-disconnection-notifi {
+    padding: 15px 15px 5px 10px;
+
+    .button-action {
+        left: 70px;
+        position: relative;
+    }
+}
+
+.w-misc-disconnection-notifi {
+    padding-bottom: 10px;
+    width: 175px;
+}
+
+.w-misc-device-binding-cloud {
 
     .arrow-bg {
         @include misc-sprite(binding-arrow);

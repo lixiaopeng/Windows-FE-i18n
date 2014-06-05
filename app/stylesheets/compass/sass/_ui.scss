@@ -23,26 +23,6 @@
     position: absolute;
     -webkit-transform: translate3d(0, 0, 0);
     -webkit-transition: opacity .2s linear;
-
-    .arrow {
-        border: {
-            color: rgba(0, 0, 0, .8) transparent transparent transparent;
-            style: solid;
-            width: 5px;
-        }
-        height: 0;
-        position: absolute;
-        top: -10px;
-        width: 0;
-        -webkit-transform: rotate(180deg);
-        -webkit-transition: opacity .2s linear;
-
-        &.bottom {
-            top: auto;
-            bottom: -10px;
-            -webkit-transform: rotate(0);
-        }
-    }
 }
 
 .w-ui-popup-tip {
@@ -67,6 +47,17 @@
             top: auto;
             bottom: -10px;
             -webkit-transform: rotate(0);
+        }
+    }
+}
+
+.w-ui-popup-tip-white {
+    color : #333;
+    background-color: #fff;
+
+    .arrow {
+        border: {
+            color: #fff transparent transparent transparent;
         }
     }
 }

@@ -202,8 +202,8 @@
   "USB_ERROR_TIP_1" : "检查你的 USB 线是否完好，或者换一根 USB 线试试~",
   "USB_ERROR_TIP_2" : "USB 插口松了？换一个 USB 口插试试吧~",
   "USB_ERROR_TIP_3" : "重启手机有时候也能有奇效哦~",
-  "USB_TIP_FEEDBACK" : "http://www.wandoujia.com/help/?do=add_ticket",
-  "USB_TIP_HELP" : "http://www.wandoujia.com/help/?do=topic&id=63374557",
+  "USB_TIP_FEEDBACK" : "http://www.wandoujia.com/help/?do=topic&id=63374557",
+  "USB_TIP_HELP" : "http://www.wandoujia.com/help/?do=add_ticket",
   "FEEDBACK" : "还是连不上？<span class=\"button-feedback link\">向豌豆工程师求助</span>",
   "HELP" : "Wi-Fi 连接去哪了？",
   "USB_TITLE_OPEN_SD" : "请用 USB 线连接手机后再管理 SD 卡",
@@ -219,5 +219,8 @@
   "USE_USB_TITLE" : "使用 USB 线连接电脑",
   "USB_TIP_1" : "无线连接功能正在升级，",
   "USB_TIP_2" : "暂时需要使用 USB 线连接手机后才能管理",
-  "ALREADY_USE_USB" : "我已使用 USB 线连接"
+  "ALREADY_USE_USB" : "我已使用 USB 线连接",
+  "AUTO_CONN_TRY" : "马上试试",
+  "AUTO_CONN_NOTIFI_TIP" : "不用 USB 线也能下载应用？<br />豌豆荚自动帮你无线连接手机轻松下载内容",
+  "DISCONN_NOTIFI_TIP" : "你在手机上断开了无线连接，如果需要重新连接，请使用 USB 线连接手机和电脑"
 }
