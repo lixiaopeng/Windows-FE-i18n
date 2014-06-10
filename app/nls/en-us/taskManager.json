@@ -156,7 +156,7 @@
     "DEVICE_NOT_FOUND_TIP" : "Connect your device via USB or Wi-Fi, and SnapPea will finish these tasks",
     "PUSHING_PHONE" : "Sending to phone...",
     "PUSH_PHONE_FAILED" : "发送失败，请稍后再试",
-    "PUSH_PHONE_SUCCESS" : "当前是无线连接，任务已经发送到手机上并开始下载",
+    "PUSH_PHONE_SUCCESS" : "任务已经发送到手机上并开始下载",
     "RETRY_PUSH_PHONE" : "Send again",
     "CANCEL_PUSH_PHONE" : "Cancel send",
     "RETRY_INSTALL" : "Retry",
