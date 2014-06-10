@@ -167,6 +167,6 @@
     "DISK_NO_SPACE_DESC" : "Your hard drive is full. <br />Edit the location of your downloads folder and try again.",
     "DISK_NO_SPACE_CAN_NOT_USE_DESC" : "You can't download to the current location.<br />Edit the location of your downloads folder and try again.",
     "FEEDBACK_LINK" : "http://www.wandoujia.com/help/?do=add_ticket",
-    "FEEDBACK" : "返回问题",
+    "FEEDBACK" : "反馈问题",
     "NEED_USB_CONNECTION" : "请使用 USB 连接手机"
 }

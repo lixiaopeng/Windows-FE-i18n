@@ -167,6 +167,6 @@
     "DISK_NO_SPACE_DESC" : "<span class=\"title text-bold\">你的硬盘空间已满</span><br />请修改下载文件夹位置后，再重新下载。",
     "DISK_NO_SPACE_CAN_NOT_USE_DESC" : "<span class=\"title text-bold\">目前的下载位置不可用</span><br />请修改下载文件夹位置后，再重新下载。",
     "FEEDBACK_LINK" : "http://www.wandoujia.com/help/?do=add_ticket",
-    "FEEDBACK" : "返回问题",
+    "FEEDBACK" : "反馈问题",
     "NEED_USB_CONNECTION" : "请使用 USB 连接手机"
 }
