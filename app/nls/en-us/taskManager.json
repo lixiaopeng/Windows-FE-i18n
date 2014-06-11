@@ -28,7 +28,7 @@
     "COMPLETE_COUNT_TIP" : "{1} item(s) completed",
     "DEVICE_NOT_CONNECT" : "No device connected",
     "DEVICE_NOT_CONNECT_TIP" : "You haven't connected a device. Downloads will automatically transfer the next time you connect.",
-    "CONFIRM_ON_DEVICE_TIP" : "您下载的内容已发送到手机上。",
+    "CONFIRM_ON_DEVICE_TIP" : "你下载的内容已发送到手机上。",
     "CONFIRM_ON_DEVICE_MIUI_V5_TIP" : "You' using MIUI, which requires you to confirm the install on your device.",
     "DEVICE_DISCONNECT" : "Device disconnected",
     "DEVICE_DISCONNECT_TIP" : "Device disconnected. Downloads will automatically transfer the next time you connect.",
