@@ -59,7 +59,7 @@
     }
 }
 
-.w-tools-falsh-confirm {
+.w-tools-flash-confirm {
     .icon {
         @include tools-sprite(error);
         height: 80px;
@@ -133,9 +133,9 @@
         }
     }
 
-    &.falsh {
+    &.flash {
         .icon {
-            @include tools-sprite(falsh);
+            @include tools-sprite(flash);
             height: 74px;
             margin-left: 20px;
             width: 48px;
