@@ -13,7 +13,10 @@
     "USB_INSTALL_FAILED_NO_MORE_SPACE" : "手机安装豌豆荚失败，空间不足",
     "USB_INSTALL_FAILED_INTERNAL_ERROR" : "手机安装豌豆荚失败，手机内部错误",
     "USB_INSTALL_ALLOW" : "连接手机时，需要你在手机上允许安装豌豆荚才能正常连接",
-    "PHTONE_DISCONNECTED" : "手机未连接",
+    "PHTONE_DISCONNECTED" : "请您用 USB 线连接手机",
+    "CONNECTION_IMMEDIATELY" : "立刻连接",
+    "DEVICE_CONNECTING" : "正在连接你的手机",
+    "DEVICE_DRIVER_INSTALLING" : "正在安装手机驱动",
     "POSIBLE_REASON" : "可能的原因：",
     "MTP_BLOCK_BY_SCREEN_LOCK" : "你的手机可能正处于锁屏状态，「SD卡管理」功能需要你解锁手机，请解锁后继续。如果你的手机没有锁屏，请尝试重启手机后再试。或<span class=\"link button-ftp\">使用 FTP 方式管理 SD 卡。</span>",
     "SELECT" : "选择",
@@ -200,6 +203,7 @@
     "APP" : "应用",
     "GAME" : "游戏",
     "CONNECT_UR_PHONE" : "请使用 USB 线连接手机",
+    "CONNECTING_UR_PHONE" : "正在尝试 USB 连接手机，请稍后...",
     "CONNECTION_TIP" : "此功能暂不支持在无线连接下使用，请使用 USB 线连接手机后继续",
     "CONNECTION_BUTTON" : "立即连接",
     "NO_RESPONSE_WITH_USB" : "插了 USB 线但是没反应？",
@@ -226,5 +230,7 @@
     "ALREADY_USE_USB" : "我已使用 USB 线连接",
     "AUTO_CONN_TRY" : "马上试试",
     "AUTO_CONN_NOTIFI_TIP" : "不用 USB 线也能下载应用？<br />豌豆荚自动帮你无线连接手机轻松下载内容",
-    "DISCONN_NOTIFI_TIP" : "你在手机上断开了无线连接，<br />如果需要重新连接，请使用 USB <br />线连接手机和电脑"
+    "DISCONN_NOTIFI_TIP" : "你在手机上断开了无线连接，<br />如果需要重新连接，请使用 USB <br />线连接手机和电脑",
+    "USB_TIP_APP_1" : "连接后豌豆荚会将「 {1} 」传输到手机上，",
+    "USB_TIP_APP_2" : "立即为您节约手机流量！"
 }

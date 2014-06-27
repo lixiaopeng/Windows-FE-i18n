@@ -152,7 +152,7 @@
     "NO_MORE_SDCARD":"เหลือพื้นที่ในการ์ด SD ไม่พอ",
     "SDCARD_MOUNT":"กรุณาอย่าเอาการ์ด SD ออก",
     "NO_SDCARD":"หาการ์ด SD ไม่พบ ไม่สามารถถ่ายโอนไฟล์",
-    "DEVICE_NOT_FOUND":"เชื่อมต่ออุปกรณ์ของคุณเพื่อถ่ายโอน",
+    "DEVICE_NOT_FOUND":"等待传输，请连接 USB 线",
     "DEVICE_NOT_FOUND_TIP":"เชื่อมต่ออุปกรณ์ผ่านทาง USB หรือ Wi-Fi เพื่อให้ SnapPea เสร็จการดําเนินการ",
     "PUSHING_PHONE":"กําลังส่งไปยังโทรศัพท์...",
     "PUSH_PHONE_FAILED" : "发送失败，请稍后再试",
