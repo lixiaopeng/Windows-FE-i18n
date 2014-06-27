@@ -200,6 +200,7 @@
     "VIDEO" : "视频",
     "EBOOK" : "电子书",
     "CONNECT_UR_PHONE" : "请使用 USB 线连接手机",
+    "CONNECTING_UR_PHONE" : "正在尝试 USB 连接手机，请稍后...",
     "CONNECTION_TIP" : "此功能暂不支持在无线连接下使用，请使用 USB 线连接手机后继续",
     "CONNECTION_BUTTON" : "立即连接",
     "NO_RESPONSE_WITH_USB" : "插了 USB 线但是没反应？",
@@ -226,5 +227,7 @@
     "ALREADY_USE_USB" : "我已使用 USB 线连接",
     "AUTO_CONN_TRY" : "马上试试",
     "AUTO_CONN_NOTIFI_TIP" : "不用 USB 线也能下载应用？<br />豌豆荚自动帮你无线连接手机轻松下载内容",
-    "DISCONN_NOTIFI_TIP" : "你在手机上断开了无线连接，如果需要重新连接，请使用 USB 线连接手机和电脑"
+    "DISCONN_NOTIFI_TIP" : "你在手机上断开了无线连接，如果需要重新连接，请使用 USB 线连接手机和电脑",
+    "USB_TIP_APP_1" : "连接后豌豆荚会将「 {1} 」传输到手机上，",
+    "USB_TIP_APP_2" : "立即为您节约手机流量！"
 }
