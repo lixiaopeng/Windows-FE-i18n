@@ -203,7 +203,7 @@
     "APP" : "应用",
     "GAME" : "游戏",
     "CONNECT_UR_PHONE" : "请使用 USB 线连接手机",
-    "CONNECTING_UR_PHONE" : "正在尝试 USB 连接手机，请稍后...",
+    "CONNECTING_UR_PHONE" : "正在尝试 USB 连接手机，请稍候...",
     "CONNECTION_TIP" : "此功能暂不支持在无线连接下使用，请使用 USB 线连接手机后继续",
     "CONNECTION_BUTTON" : "立即连接",
     "NO_RESPONSE_WITH_USB" : "插了 USB 线但是没反应？",
