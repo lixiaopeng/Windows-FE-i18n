@@ -13,8 +13,8 @@
     "USB_INSTALL_FAILED_NO_MORE_SPACE" : "手机安装豌豆荚失败，空间不足",
     "USB_INSTALL_FAILED_INTERNAL_ERROR" : "手机安装豌豆荚失败，手机内部错误",
     "USB_INSTALL_ALLOW" : "连接手机时，需要你在手机上允许安装豌豆荚才能正常连接",
-    "PHTONE_DISCONNECTED" : "请您用 USB 线连接手机",
-    "CONNECTION_IMMEDIATELY" : "立刻连接",
+    "PHTONE_DISCONNECTED" : "请你用 USB 线连接手机",
+    "CONNECTION_IMMEDIATELY" : "立即连接",
     "DEVICE_CONNECTING" : "正在连接你的手机",
     "DEVICE_DRIVER_INSTALLING" : "正在安装手机驱动",
     "POSIBLE_REASON" : "可能的原因：",
@@ -234,5 +234,6 @@
     "USB_TIP_APP_1" : "连接后豌豆荚会将「 {1} 」传输到手机上，",
     "USB_TIP_APP_2" : "立即为成都节约手机流量！",
     "USB_DEFAULT_TIP_1" : "使用 USB 线连接电脑后，豌豆荚会自动连接你的手机。",
-    "USB_DEFAULT_TIP_2" : "连接后即可免费下载海量资源、方便地管理手机信息。"
+    "USB_DEFAULT_TIP_2" : "连接后即可免费下载海量资源、方便地管理手机信息。",
+    "CHECK_CONNECTION_STATE" : "查看连接状态"
 }
