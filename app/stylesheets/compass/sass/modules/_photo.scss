@@ -110,29 +110,6 @@
 
 .w-photo-item {
     @extend .w-media-item;
-
-    .control {
-        .button-share {
-            color: #999;
-            height: 15px;
-            margin-right: 5px;
-            width: 15px;
-
-            &:hover {
-                color: #ccc;
-            }
-        }
-    }
-}
-
-.disconnected {
-    .w-photo-item:not(.hasOriginalPic) {
-        .control {
-            .button-share {
-                display: none;
-            }
-        }
-    }
 }
 
 /********************************************************************************
@@ -293,7 +270,7 @@
                     height: 26px;
                     width: 35px;
 
-                    @each $icon in delete, export, play, pause, share, wallpaper, rotate-left, rotate-right {
+                    @each $icon in delete, export, play, pause, wallpaper, rotate-left, rotate-right {
                         &.button-#{$icon} {
                             @include sprite-sprite(photo-#{$icon});
                         }
