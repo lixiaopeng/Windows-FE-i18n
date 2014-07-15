@@ -387,3 +387,45 @@
         }
     }
 }
+
+.w-misc-not-in-same-wifi {
+
+    padding-top: 10px;
+    width: 405px;
+
+    .content-ctn {
+        .content-text {
+            margin-top: 15px;
+        }
+    }
+
+    .pic-ctn {
+        height: 80px;
+        margin-left: 10px;
+        margin-right: 35px;
+        width: 80px;
+
+        &.sdcard {
+            @include misc-sprite(sdcard);
+        }
+
+        &.wallpaper {
+            @include misc-sprite(wallpaper);
+        }
+    }
+
+    .header-text {
+       font-size: 18px;
+    }
+
+    .ip-ctn {
+        bottom: 50px;
+        left: 140px;
+        position: absolute;
+
+        span {
+            display: block;
+        }
+    }
+
+}

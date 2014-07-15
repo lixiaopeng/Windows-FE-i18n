@@ -202,9 +202,9 @@
     "EBOOK" : "电子书",
     "APP" : "应用",
     "GAME" : "游戏",
-    "CONNECT_UR_PHONE" : "请使用 USB 线连接手机",
+    "CONNECT_UR_PHONE" : "暂时不能使用管理功能",
     "CONNECTING_UR_PHONE" : "正在尝试 USB 连接手机，请稍候...",
-    "CONNECTION_TIP" : "此功能暂不支持在无线连接下使用，请使用 USB 线连接手机后继续",
+    "CONNECTION_TIP" : "可能是由于你的手机与电脑并不在统一局域网内,<br />你可以尝试使用 USB 线连接后再使用该功能。或 <span class='link button-help'>查看更多帮助</span>",
     "CONNECTION_BUTTON" : "立即连接",
     "NO_RESPONSE_WITH_USB" : "插了 USB 线但是没反应？",
     "USB_ERROR_TIP_1" : "检查你的 USB 线是否完好，或者换一根 USB 线试试~",
@@ -235,5 +235,11 @@
     "USB_TIP_APP_2" : "立即为你节约手机流量！",
     "USB_DEFAULT_TIP_1" : "使用 USB 线连接电脑后，豌豆荚会自动连接你的手机。",
     "USB_DEFAULT_TIP_2" : "连接后即可免费下载海量资源、方便地管理手机信息。",
-    "CHECK_CONNECTION_STATE" : "查看连接状态"
+    "CHECK_CONNECTION_STATE" : "查看连接状态",
+    "CLIENT_IP" : "电脑 IP：{1}",
+    "DEVICE_IP" : "手机 IP：{1}",
+    "ALERT" : "提醒",
+    "NOT_USE_SDCARD" : "暂时不能使用 SD 卡管理",
+    "NOT_USE_WALLPAPER" : "暂时不能设置手机壁纸",
+    "NOT_IN_SAME_WIFI" : "可能是由于你的手机与电脑并不在同一局域网内。<br /><span class='link button-action'>什么是同一局域网？</span>（你也可以尝试使用 USB 连接<br />后再进行该操作）"
 }

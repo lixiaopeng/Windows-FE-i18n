@@ -134,6 +134,16 @@ html, body, .w-main {
     &.hide {
         opacity: 0;
     }
+
+    .ip-ctn {
+        bottom: 5px;
+        position: fixed;
+        right: 5px;
+
+        span {
+            display: block;
+        }
+    }
 }
 
 
