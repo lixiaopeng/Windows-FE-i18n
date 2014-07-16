@@ -191,37 +191,6 @@
             box-shadow: 0 1px 0 #fff;
             height: 0;
         }
-
-        .login-ctn {
-            -webkit-box-align: center;
-            -webkit-box-pack: center;
-
-            .button-login {
-                margin-right: 15px;
-            }
-
-            .sns-login {
-                height: 21px;
-                margin-left: 10px;
-
-                li {
-                    cursor: pointer;
-                    height: 21px;
-                    width: 21px;
-
-                    + li {
-                        margin-left: 5px;
-                    }
-                }
-
-                @each $icon in qq, renren, weibo {
-                    .button-#{$icon} {
-                        @include guide-sprite(#{$icon});
-                        display: inline-block;
-                    }
-                }
-            }
-        }
     }
 }
 
