@@ -208,7 +208,7 @@
     "CONNECTION_BUTTON" : "立即连接",
     "NO_RESPONSE_WITH_USB" : "插了 USB 线但是没反应？",
     "USB_ERROR_TIP_1" : "检查你的 USB 线是否完好，或者换一根 USB 线试试~",
-    "USB_ERROR_TIP_2" : "USB 插口松了？换一个 USB 口插试试吧~",
+    "USB_ERROR_TIP_2" : "USB 插口松了？换一个 USB 插口试试吧~",
     "USB_ERROR_TIP_3" : "重启手机有时候也能有奇效哦~",
     "USB_TIP_HELP" : "http://www.wandoujia.com/help/?do=topic&id=63374557",
     "USB_TIP_FEEDBACK" : "http://www.wandoujia.com/help/?do=add_ticket",
