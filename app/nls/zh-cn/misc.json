@@ -204,7 +204,7 @@
     "GAME" : "游戏",
     "CAN_NOT_USE_PIM" : "暂时不能使用管理功能",
     "CONNECTING_UR_PHONE" : "正在尝试 USB 连接手机，请稍候...",
-    "CONNECTION_TIP" : "可能是由于你的手机与电脑并不在同一局域网内，<br />你可以尝试使用 USB 线连接后再使用该功能。或 <span class='link button-help'>查看更多帮助</span>",
+    "CONNECTION_TIP" : "可能是由于你的手机与电脑并不在同一局域网内，<br />你可以尝试使用 USB 线连接后再使用该功能。或 <a class='button-help'  href='http://www.wandoujia.com/help/?do=topic&id=87392766' target='_default'>查看帮助</a>",
     "CONNECTION_BUTTON" : "立即连接",
     "NO_RESPONSE_WITH_USB" : "插了 USB 线但是没反应？",
     "USB_ERROR_TIP_1" : "检查你的 USB 线是否完好，或者换一根 USB 线试试~",
@@ -241,5 +241,5 @@
     "ALERT" : "提醒",
     "CAN_NOT_USE_SDCARD" : "暂时不能使用 SD 卡管理",
     "CAN_NOT_USE_WALLPAPER" : "暂时不能设置手机壁纸",
-    "NOT_IN_SAME_WIFI" : "可能是由于你的手机与电脑并不在同一局域网内。<br /><span class='link button-action'>什么是同一局域网？</span>（你也可以尝试使用 USB 连接<br />后再进行该操作）"
+    "NOT_IN_SAME_WIFI" : "可能是由于你的手机与电脑并不在同一局域网内。<br /><a class='button-help' href='http://www.wandoujia.com/help/?do=topic&id=87392766' target='_default'>什么是同一局域网？</a>（你也可以尝试使用 USB 连接<br />后再进行该操作）"
 }
