@@ -984,8 +984,11 @@
         border-color: rgba(255, 255, 255, .2);
     }
 
-    .button-connect-phone {
-        display: none;
+    .connect-buttons,
+    .normal-buttons {
+        &.hide {
+            display: none;
+        }
     }
 }
 
