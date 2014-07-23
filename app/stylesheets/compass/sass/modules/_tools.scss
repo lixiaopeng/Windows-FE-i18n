@@ -75,6 +75,12 @@
         .title {
             margin-bottom: 10px;
         }
+
+        .desc {
+            display: block;
+            width: 200px;
+            word-break: break-all;
+        }
     }
 }
 
