@@ -152,6 +152,10 @@
                 background-color: transparent;
             }
         }
+
+        &.hide {
+            display: none;
+        }
     }
 
     .item-checker-wrap {
