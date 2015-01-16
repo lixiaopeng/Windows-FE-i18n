@@ -181,6 +181,8 @@ module.exports = function (grunt) {
         case 'TIANYIN':
             content = '$PROJECT_FLAG : PROJECT_TIANYIN';
             break;
+        case 'HP':
+            content = '$PROJECT_FLAG : PROJECT_HP';
         }
 
         grunt.file.write(filePath, content);
